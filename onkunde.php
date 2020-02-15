@@ -1,7 +1,34 @@
+<!DOCTYPE html>
 <html>
+<head>
+    <title>Onkunde</title>
+    <link rel="stylesheet" type="text/css" href="stylee.css" media="screen" />
+</head>
     <body>
-        <h1>Onkunde</h1>
-        <p>Er zijn veel mensen die niet kunnen <?php echo $_POST["kunnen"];?>. Neem nou <?php echo $_POST["persoon"];?>. Zelfs met de hulp van een <?php echo $_POST["vakantie"];?> of zelfs <?php echo $_POST["getal"];?> kan <?php echo $_POST["persoon"];?> niet <?php echo $_POST["kunnen"];?>. Dat heeft niet te maken met een gebrek aan <?php echo $_POST["beste"];?>, maar met een te veel aan <?php echo $_POST["slechtste"];?>. Te veel <?php echo $_POST["slechtste"];?> leidt tot <?php echo $_POST["ergste"];?> en dat is niet goed als je wilt <?php echo $_POST["kunnen"];?>. Helaas voor <?php echo $_POST["persoon"];?></p>
+        <div class="grid-item item1">
+            <img src ="header.png" alt="header">
+        </div>
+		<div class="grid-container">
+            
+			<div class="grid-item item2">
+				<ul class = "menu1">
+					<li><a href="#">Er eerst paniek...</a></li>
+					<li><a href="#">Onkunde</a></li>
+                </ul>
+            </div>
+            <div class="grid-item item3">
+                <h1>Onkunde</h1>   
+        </div>
+
+            <div class="grid-item item4">
+            <p>Er zijn veel mensen die niet kunnen <?php echo $_POST["kunnen"];?>. Neem nou <?php echo $_POST["persoon"];?>.
+                
+            </div>
+
+			<div class="grid-item item6">
+				<span>© 2019 - Daphne Kramer</span>
+            </div>
+    </div>
 
     </body>
 </html>

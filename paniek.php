@@ -1,7 +1,7 @@
 <html>
     <body>
         <h1>Er heerst paniek...</h1>
-        <p>Er heeft paniek in het koninkrijk <?php echo $_POST["land"];?>, Koning <?php echo $_POST["docent"];?> is ten einde raad en als koning <?php echo $_POST["docent"];?> ten einde raad is, dan roopt hij zijn ten-einde-raadsheer <?php echo $_POST["persoon"];?> </p>
+        <p>Er heeft paniek in het koninkrijk <?php echo $_POST["land"];?>, Koning <?php echo $_POST["docent"];?> is ten einde raad en als koning <?php echo $_POST["docent"];?> ten einde raad is, dan roept hij zijn ten-einde-raadsheer <?php echo $_POST["persoon"];?> </p>
 
         <p>"<?php echo $_POST["persoon"];?>! Het is een ramp! Het is een schande!</p>
         <p>"Sire, Majesteit, Uwe Luidruchtigheid, wat is er aan de hand?"</p>
